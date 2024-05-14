@@ -5,9 +5,7 @@ Plain ROUGE-L is a Python package designed to compute ROUGE-L scores for evaluat
 ## Installation
 To install Plain ROUGE-L, simply clone the repository and install dependencies if any.
 ```bash
-git clone https://github.com/oKatanaaa/Plain-ROUGE-L.git
-cd Plain-ROUGE-L
-pip install .
+pip install plain-rougel
 ```
 
 ## Usage
