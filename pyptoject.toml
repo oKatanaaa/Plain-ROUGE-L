@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plain_rougel"
+version = "0.1.0"
+description = "A fast and multiprocessing-enabled ROUGE-L scorer."
+authors = [
+    {name = "Igor Kilbas", email = "your-email@example.com"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/simple_rougel"
+"Repository" = "https://github.com/yourusername/simple_rougel"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package_dir = {"" = "src"}
+
+[project.scripts]
+simple_rougel = "simple_rougel:main"
